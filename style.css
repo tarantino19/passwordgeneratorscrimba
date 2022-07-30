@@ -2,7 +2,7 @@ body {
   margin: 0;
   width: 500px;
   margin: 5em auto;
-  background: tomato;
+  background: coral;
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -18,8 +18,14 @@ span {
 
 .btn {
   border: none;
-  padding: 10px 22px;
+  padding: 20px 40px;
   background: aquamarine;
+  margin-top: 1em;
+}
+
+.btn-password-generator {
+  font-weight: 800;
+  font-size: 1em;
 }
 
 .password-container {
@@ -39,6 +45,7 @@ span {
   border-radius: 6px;
   color: lightgreen;
   text-align: center;
+  margin-top: 1em;
 }
 
 .password-one {
